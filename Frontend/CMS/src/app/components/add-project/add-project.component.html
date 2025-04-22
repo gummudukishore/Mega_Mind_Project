@@ -1,0 +1,29 @@
+<div class="form-container">
+    <div class="left-panel">
+      <div 
+        *ngFor="let time of samplingTimes; let i = index" 
+        (click)="selectSample(i)" 
+        [class.selected]="i === selectedIndex">
+        {{ time | date: 'dd-MM-yyyy hh:mm:ss a' }}
+      </div>
+    </div>
+  
+    <div class="right-panel" [formGroup]="form">
+      <div *ngFor="let key of form.controls | keyvalue">
+        <label>{{ key.key }}:</label>
+  
+        
+        <input 
+          *ngIf="typeof key.value.value !== 'boolean'" 
+          [formControlName]="key.key" />
+  
+        <input 
+          *ngIf="typeof key.value.value === 'boolean'" 
+          type="checkbox" 
+          [formControlName]="key.key" />
+      </div>
+  
+      <button (click)="onSave()">Save</button>
+    </div>
+  </div>
+  

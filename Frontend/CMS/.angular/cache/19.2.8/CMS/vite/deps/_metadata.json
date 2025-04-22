@@ -1,0 +1,73 @@
+{
+  "hash": "cfea9a33",
+  "configHash": "59552215",
+  "lockfileHash": "1d89f154",
+  "browserHash": "7f976c81",
+  "optimized": {
+    "@angular/core": {
+      "src": "../../../../../../node_modules/@angular/core/fesm2022/core.mjs",
+      "file": "@angular_core.js",
+      "fileHash": "476b759f",
+      "needsInterop": false
+    },
+    "@angular/platform-browser": {
+      "src": "../../../../../../node_modules/@angular/platform-browser/fesm2022/platform-browser.mjs",
+      "file": "@angular_platform-browser.js",
+      "fileHash": "4965aaec",
+      "needsInterop": false
+    },
+    "@angular/router": {
+      "src": "../../../../../../node_modules/@angular/router/fesm2022/router.mjs",
+      "file": "@angular_router.js",
+      "fileHash": "1041feb1",
+      "needsInterop": false
+    },
+    "@angular/common": {
+      "src": "../../../../../../node_modules/@angular/common/fesm2022/common.mjs",
+      "file": "@angular_common.js",
+      "fileHash": "e1b88a9e",
+      "needsInterop": false
+    },
+    "@angular/forms": {
+      "src": "../../../../../../node_modules/@angular/forms/fesm2022/forms.mjs",
+      "file": "@angular_forms.js",
+      "fileHash": "3cd612ae",
+      "needsInterop": false
+    },
+    "@angular/common/http": {
+      "src": "../../../../../../node_modules/@angular/common/fesm2022/http.mjs",
+      "file": "@angular_common_http.js",
+      "fileHash": "cfd52c4d",
+      "needsInterop": false
+    },
+    "@angular/platform-browser/animations/async": {
+      "src": "../../../../../../node_modules/@angular/platform-browser/fesm2022/animations/async.mjs",
+      "file": "@angular_platform-browser_animations_async.js",
+      "fileHash": "38a175de",
+      "needsInterop": false
+    }
+  },
+  "chunks": {
+    "chunk-Q6YMQWLO": {
+      "file": "chunk-Q6YMQWLO.js"
+    },
+    "chunk-TH3G6GEB": {
+      "file": "chunk-TH3G6GEB.js"
+    },
+    "chunk-FQAH6ZID": {
+      "file": "chunk-FQAH6ZID.js"
+    },
+    "chunk-DOXCAC5D": {
+      "file": "chunk-DOXCAC5D.js"
+    },
+    "chunk-QRIZ6IX2": {
+      "file": "chunk-QRIZ6IX2.js"
+    },
+    "chunk-OPCQPQRU": {
+      "file": "chunk-OPCQPQRU.js"
+    },
+    "platform-browser-ZVZDBAZE": {
+      "file": "platform-browser-ZVZDBAZE.js"
+    }
+  }
+}

@@ -1,0 +1,23 @@
+<div class="table-container">
+    <table>
+      <thead>
+        <tr>
+          <th>Sampling Time</th>
+          <th>Project Name</th>
+          <th>Construction Count</th>
+          <th>Is Construction Completed</th>
+          <th>Length of the Road</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let data of roadConstructionData">
+          <td>{{ data.samplingTime }}</td>
+          <td>{{ data.projectName }}</td>
+          <td>{{ data.constructionCount }}</td>
+          <td>{{ data.isCompleted }}</td>
+          <td>{{ data.roadLength }}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+ 

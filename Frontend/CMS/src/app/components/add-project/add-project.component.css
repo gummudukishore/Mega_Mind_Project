@@ -1,0 +1,44 @@
+.form-container {
+    display: flex;
+    border: 2px solid black;
+  }
+  
+  .left-panel {
+    width: 30%;
+    border-right: 2px solid black;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .left-panel div {
+    padding: 10px;
+    border-bottom: 1px solid black;
+    cursor: pointer;
+  }
+  
+  .left-panel .selected {
+    background-color: #cfcfcf;
+    font-weight: bold;
+  }
+  
+  .right-panel {
+    width: 70%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+  
+  .right-panel label {
+    display: block;
+    font-weight: 500;
+    margin-bottom: 4px;
+  }
+  
+  .right-panel input[type="text"],
+  .right-panel input[type="number"] {
+    width: 50%;
+    padding: 6px;
+    border: 1px solid black;
+  }
+  
